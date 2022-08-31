@@ -193,6 +193,14 @@ section {
   margin-bottom: 30px;
 }
 
+.heading-sectionaboutus h4 {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 70px;
+}
+
 .heading-section h4 em {
   color: #fff;
   font-style: normal;
@@ -755,6 +763,16 @@ Pre-loader Style
     background-position: center center;
     background-size: cover;
     min-height: 450px;
+    border-radius: 23px;
+    padding: 80px 60px;
+    margin-top: 100px;
+  }
+
+  .main-aboutus {
+    background-image: url(../public/assets/images/turf1.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 650px;
     border-radius: 23px;
     padding: 80px 60px;
     margin-top: 100px;

@@ -3,7 +3,6 @@ import React from 'react'
 const GamingLibrary = () => {
     return (
         <>
-            {/* ***** Gaming Library Start ***** */}
             <div className="gaming-library">
                 <div className="col-lg-12">
                     <div className="heading-section">
@@ -46,8 +45,6 @@ const GamingLibrary = () => {
                     </div>
                 </div>
             </div>
-            {/* ***** Gaming Library End ***** */}
-
         </>
     )
 }

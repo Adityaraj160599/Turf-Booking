@@ -3,7 +3,6 @@ import React from 'react'
 const MostPopular = () => {
     return (
         <>
-            {/* ***** Most Popular Start ***** */}
             <div className="most-popular">
                 <div className="row">
                     <div className="col-lg-12">
@@ -106,10 +105,6 @@ const MostPopular = () => {
                     </div>
                 </div>
             </div>
-            {/* ***** Most Popular End ***** */}
-
-
-
         </>
     )
 }

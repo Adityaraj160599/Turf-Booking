@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -18,11 +19,13 @@ const Header = () => {
                                     </form>
                                 </div>
                                 <ul className="nav">
-                                    <li><a href="index.html" className="active">Home</a></li>
-                                    <li><a href="browse.html">Browse</a></li>
-                                    <li><a href="details.html">Details</a></li>
-                                    <li><a href="streams.html">Streams</a></li>
-                                    <li><a href="profile.html">Profile <img src="assets/images/profile-header.jpg" alt /></a></li>
+                                    <li><Link to="/">Home</Link></li>
+                                    <li><Link to="/aboutus">About Us</Link></li>
+                                    <li><Link to="/booknow">BookNow</Link></li>
+                                    <li><Link to="/newsandevents">News & Events</Link></li>
+                                    <li><Link to="/careers">Careers</Link></li>
+                                    <li><Link to="/blog">Blog</Link></li>
+                                    <li></li>
                                 </ul>
                                 <a className="menu-trigger">
                                     <span>Menu</span>
@@ -46,4 +49,8 @@ const Header = () => {
     )
 }
 
+
 export default Header;
+
+
+
