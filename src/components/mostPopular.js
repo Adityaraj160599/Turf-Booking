@@ -24,7 +24,7 @@ const MostPopular = () => {
                             <div className="col-lg-3 col-sm-6">
                                 <div className="item">
                                     <img src="assets/images/turf2.jpg" alt />
-                                    <h4>Turf Club<br /><span>Battle S</span></h4>
+                                    <h4>Turf Club<br /><span>Mumbai</span></h4>
                                     <ul>
                                         <li><i className="fa fa-star" /> 4.8</li>
                                         <li><i className="fa fa-download" /> 2.3M</li>
@@ -34,7 +34,7 @@ const MostPopular = () => {
                             <div className="col-lg-3 col-sm-6">
                                 <div className="item">
                                     <img src="assets/images/turf3.jpg" alt />
-                                    <h4>P.K versi turf<br /><span>Steam-X</span></h4>
+                                    <h4>P.K versi turf<br /><span>Banglore</span></h4>
                                     <ul>
                                         <li><i className="fa fa-star" /> 4.8</li>
                                         <li><i className="fa fa-download" /> 2.3M</li>
@@ -44,7 +44,7 @@ const MostPopular = () => {
                             <div className="col-lg-3 col-sm-6">
                                 <div className="item">
                                     <img src="assets/images/turf4.jpg" alt />
-                                    <h4>The Willigdon Turf<br /><span>Legendary</span></h4>
+                                    <h4>The Willigdon Turf<br /><span>Indore</span></h4>
                                     <ul>
                                         <li><i className="fa fa-star" /> 4.8</li>
                                         <li><i className="fa fa-download" /> 2.3M</li>
@@ -57,7 +57,7 @@ const MostPopular = () => {
                                         <div className="col-lg-6 col-sm-6">
                                             <div className="item inner-item">
                                                 <img src="assets/images/turf5.jpg" alt />
-                                                <h4>DLF Golf &amp; Country Club<br /><span>Legendary</span></h4>
+                                                <h4>DLF Golf &amp; Country Club<br /><span>Pune</span></h4>
                                                 <ul>
                                                     <li><i className="fa fa-star" /> 4.8</li>
                                                     <li><i className="fa fa-download" /> 2.3M</li>
@@ -67,7 +67,7 @@ const MostPopular = () => {
                                         <div className="col-lg-6 col-sm-6">
                                             <div className="item">
                                                 <img src="assets/images/turf6.jpg" alt />
-                                                <h4>The Bull Ring<br /><span>Matrix Games</span></h4>
+                                                <h4>The Bull Ring<br /><span>Chennai</span></h4>
                                                 <ul>
                                                     <li><i className="fa fa-star" /> 4.8</li>
                                                     <li><i className="fa fa-download" /> 2.3M</li>
@@ -80,7 +80,7 @@ const MostPopular = () => {
                             <div className="col-lg-3 col-sm-6">
                                 <div className="item">
                                     <img src="assets/images/turf7.jpg" alt />
-                                    <h4>Roshnara Turf &amp; Club<br /><span>Max 3D</span></h4>
+                                    <h4>Roshnara Turf &amp; Club<br /><span>Mumbai</span></h4>
                                     <ul>
                                         <li><i className="fa fa-star" /> 4.8</li>
                                         <li><i className="fa fa-download" /> 2.3M</li>
@@ -90,7 +90,7 @@ const MostPopular = () => {
                             <div className="col-lg-3 col-sm-6">
                                 <div className="item">
                                     <img src="assets/images/turf8.jpg" alt />
-                                    <h4>SkyTurf<br /><span>Legend</span></h4>
+                                    <h4>SkyTurf<br /><span>Hyderabad</span></h4>
                                     <ul>
                                         <li><i className="fa fa-star" /> 4.8</li>
                                         <li><i className="fa fa-download" /> 2.3M</li>
