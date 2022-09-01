@@ -35,7 +35,7 @@ const Header = () => {
                     </div>
                 </div>
             </header>
-            <div id="js-preloader" className="js-preloader">
+            {/* <div id="js-preloader" className="js-preloader">
                 <div className="preloader-inner">
                     <span className="dot" />
                     <div className="dots">
@@ -44,7 +44,7 @@ const Header = () => {
                         <span />
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

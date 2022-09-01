@@ -1,4 +1,11 @@
-import React from 'react'
+import React from 'react';
+import turf1 from '../images/turf1.jpg';
+import turf2 from '../images/turf2.jpg';
+import turf3 from '../images/turf3.jpg';
+import turf4 from '../images/turf4.jpg';
+import turf5 from '../images/turf5.jpg';
+import turf6 from '../images/turf6.jpg';
+
 
 const MostPopular = () => {
     return (
@@ -12,7 +19,7 @@ const MostPopular = () => {
                         <div className="row">
                             <div className="col-lg-3 col-sm-6">
                                 <div className="item">
-                                    <img src="assets/images/turf1.jpg" alt />
+                                    <img src={turf1} alt />
                                     <h4>Town Turf<br /><span>Indore</span></h4>
                                     <ul>
                                         <li><i className="fa fa-star" /> 4.8</li>
@@ -22,7 +29,7 @@ const MostPopular = () => {
                             </div>
                             <div className="col-lg-3 col-sm-6">
                                 <div className="item">
-                                    <img src="assets/images/turf2.jpg" alt />
+                                    <img src={turf2} alt />
                                     <h4>Turf Club<br /><span>Mumbai</span></h4>
                                     <ul>
                                         <li><i className="fa fa-star" /> 4.8</li>
@@ -32,7 +39,7 @@ const MostPopular = () => {
                             </div>
                             <div className="col-lg-3 col-sm-6">
                                 <div className="item">
-                                    <img src="assets/images/turf3.jpg" alt />
+                                    <img src={turf3} alt />
                                     <h4>P.K versi turf<br /><span>Banglore</span></h4>
                                     <ul>
                                         <li><i className="fa fa-star" /> 4.8</li>
@@ -42,7 +49,7 @@ const MostPopular = () => {
                             </div>
                             <div className="col-lg-3 col-sm-6">
                                 <div className="item">
-                                    <img src="assets/images/turf4.jpg" alt />
+                                    <img src={turf4} alt />
                                     <h4>The Willigdon Turf<br /><span>Indore</span></h4>
                                     <ul>
                                         <li><i className="fa fa-star" /> 4.8</li>
@@ -55,7 +62,7 @@ const MostPopular = () => {
                                     <div className="row">
                                         <div className="col-lg-6 col-sm-6">
                                             <div className="item inner-item">
-                                                <img src="assets/images/turf5.jpg" alt />
+                                                <img src={turf5} alt />
                                                 <h4>DLF Golf &amp; Country Club<br /><span>Pune</span></h4>
                                                 <ul>
                                                     <li><i className="fa fa-star" /> 4.8</li>
@@ -65,7 +72,7 @@ const MostPopular = () => {
                                         </div>
                                         <div className="col-lg-6 col-sm-6">
                                             <div className="item">
-                                                <img src="assets/images/turf6.jpg" alt />
+                                                <img src={turf6} alt />
                                                 <h4>The Bull Ring<br /><span>Chennai</span></h4>
                                                 <ul>
                                                     <li><i className="fa fa-star" /> 4.8</li>
@@ -78,7 +85,7 @@ const MostPopular = () => {
                             </div>
                             <div className="col-lg-3 col-sm-6">
                                 <div className="item">
-                                    <img src="assets/images/turf7.jpg" alt />
+                                    <img src={turf5} alt />
                                     <h4>Roshnara Turf &amp; Club<br /><span>Mumbai</span></h4>
                                     <ul>
                                         <li><i className="fa fa-star" /> 4.8</li>
@@ -88,7 +95,7 @@ const MostPopular = () => {
                             </div>
                             <div className="col-lg-3 col-sm-6">
                                 <div className="item">
-                                    <img src="assets/images/turf8.jpg" alt />
+                                    <img src={turf6} alt />
                                     <h4>SkyTurf<br /><span>Hyderabad</span></h4>
                                     <ul>
                                         <li><i className="fa fa-star" /> 4.8</li>

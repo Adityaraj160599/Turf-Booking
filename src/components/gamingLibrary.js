@@ -1,4 +1,7 @@
 import React from 'react'
+import turf from "../images/turf1.jpg";
+import turf2 from "../images/turf2.jpg";
+import turf3 from "../images/turf3.jpg";
 
 const GamingLibrary = () => {
     return (
@@ -10,7 +13,7 @@ const GamingLibrary = () => {
                     </div>
                     <div className="item">
                         <ul>
-                            <li><img src="assets/images/turf5.jpg" alt className="templatemo-item" /></li>
+                            <li><img src={turf3} alt className="templatemo-item" /></li>
                             <li><h4>DLF Goaf & Club</h4><span>Pune</span></li>
                             <li><h4>Date Added</h4><span>24/08/2036</span></li>
                             <li><h4>Hours Played</h4><span>634 H 22 Mins</span></li>
@@ -20,7 +23,7 @@ const GamingLibrary = () => {
                     </div>
                     <div className="item">
                         <ul>
-                            <li><img src="assets/images/turf1.jpg" alt className="templatemo-item" /></li>
+                            <li><img src={turf} alt className="templatemo-item" /></li>
                             <li><h4>Town Turf</h4><span>Indore</span></li>
                             <li><h4>Date Added</h4><span>22/06/2036</span></li>
                             <li><h4>Hours Played</h4><span>740 H 52 Mins</span></li>
@@ -30,7 +33,7 @@ const GamingLibrary = () => {
                     </div>
                     <div className="item last-item">
                         <ul>
-                            <li><img src="assets/images/turf2.jpg" alt className="templatemo-item" /></li>
+                            <li><img src={turf2} alt className="templatemo-item" /></li>
                             <li><h4>Turf Club</h4><span>Mumbai</span></li>
                             <li><h4>Date Added</h4><span>21/04/2036</span></li>
                             <li><h4>Hours Played</h4><span>892 H 14 Mins</span></li>
